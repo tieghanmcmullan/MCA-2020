@@ -1,3 +1,14 @@
+[WEEK 1](https://tieghanmcmullan.github.io/MCA-2020) 
+| [WEEK 2](https://tieghanmcmullan.github.io/MCA-2020/answers/week02/week02.html) 
+| [WEEK 3](https://tieghanmcmullan.github.io/MCA-2020/answers/week03/week03.html) 
+| [WEEK 4](https://tieghanmcmullan.github.io/MCA-2020/answers/week04/week04.htmll) 
+| [WEEK 5](https://tieghanmcmullan.github.io/MCA-2020/answers/week05/week05.html)  
+| [WEEK 8](https://tieghanmcmullan.github.io/MCA-2020/answers/week07/week07.html) 
+| [WEEK 7](https://tieghanmcmullan.github.io/MCA-2020/answers/week08/week08.html)
+| [WEEK 9](https://tieghanmcmullan.github.io/MCA-2020/answers/week09/week09.html) 
+| [WEEK 10](https://katja-andric.github.io/MCA-2019/LabTasks/week-10/week10.html)
+
+
 # WEEK 1 - Musical Datasets
 
 ## TASK 1 - Dataset Theme
