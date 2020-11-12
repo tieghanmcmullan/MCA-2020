@@ -1,0 +1,196 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title> Week 4: Basic Analytics </title> 
+  <style> 
+  .container {
+  max-width: 1012px;
+  margin-left: auto;
+  margin-right:auto;
+margin-top: 20px;
+  }
+  body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    line-height: 1.5;
+    color: #24292e;
+    background-color: #fff;
+	}
+	h1 {
+    padding-bottom: 10px;
+    font-size: 36px;
+    border-bottom: 1px solid #eaecef;
+	}
+	
+	h2 {
+    padding-bottom: 10px;
+    font-size: 24px;
+    border-bottom: 1px solid #eaecef;
+	}
+    
+   table {
+   width: 100%;
+	margin-top:50px;
+   margin-bottom: 50px;
+   margin-right: 30px;
+   margin-left:30px;
+   }
+   
+   
+  .description {
+  width: 30%;
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(234,236,239, 0.3);
+color: #24292e;
+	  border:none;
+
+  }
+  
+  .image{
+  width: 70%;
+  text-align: center;
+  padding-bottom: 60px;
+border:none;
+  }
+  
+  #img1 {
+  width: 500px;
+  height: auto;
+  }
+  
+   #img2 {
+  width: 750px;
+  height: auto;
+  }
+  
+  #img3 {
+  width: 500px;
+  height: auto;
+  }
+  
+    #right {
+   text-align: right;
+	border: none;
+   }
+#left{
+	border:none;
+	  }
+  
+#menu {
+display: block;
+width: 100%;
+overflow: auto;
+margin-right: 0px;
+margin-left: 0px;
+padding-top: 10px;
+padding-bottom: 10px;
+border: 1px solid #c6cbd;
+border-collapse:collapse;
+display: table-row-group;
+vertical-align: middle;
+	  }
+	  
+#menu, tr {
+    border: 1px solid #c6cbd1;
+	  }
+	  
+#menu, tr, td {
+	padding: 6px 13px;
+	border: 1px solid #dfe2e5; 
+	  }
+#menu, tr, td, a {
+	text-decoration: none;
+	color: #0366d6;
+	  }
+	  
+ul{
+    list-style-type: disc;
+    columns: 2;
+    list-style-position: inside;
+}
+	  
+	  
+  </style>
+</head>
+<body>
+	<div class="container"> 
+<h1><a href="https://github.com/tieghanmcmullan/MCA-2020">MCA-2020</a></h1>
+
+<!--table links-->
+<table class="menu">
+    <tr>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020">WEEK 1</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week02/week02.html">WEEK 2</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week03/week03.html">WEEK 3</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week04/week04.html">WEEK 4</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week05/week05.html">WEEK 5</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week07/week07.html">WEEK 7</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week08/week08.html">WEEK 8</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week09/week09.html">WEEK 9</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week10/week10.html">WEEK 10</a></td>
+    </tr>
+</table>
+
+  <h1> Week 4: Basic Analytics </h1>
+  <h2> Task 1: Generating a jSymbolic </h2>
+  <p> I have generated a JSymbolic of my piece, picking out features that I feel are important. 
+  
+	  <ul> 
+		  <li> <b> Number of Pitches: </b> 26 </li>
+		  <li> <b> Number of Pitch Classes: </b> 8 </li>
+		  <li> <b> Range: </b> 42 </li>
+		  <li> <b> Strong Tonal Centres: </b> 2 </li>
+		  <li> <b> Mean Pitch: </b> 58 </li>
+		  <li> <b> Mean Pitch Class: </b> 5.157 </li>
+		  <li> <b> Most Common Pitch: </b> 48 </li>
+		  <li> <b> Most Common Pitch Class: </b> 7 </li>
+		  <li> <b> Interval Between Most Prevalent Pitches: </b> 4 </li>
+		  <li> <b> Pitch Variablity: </b> 10.89 </li>
+		  <li> <b> Most Common Melodic Interval: </b> 2 </li>
+		 
+	</ul> </br>
+        I have extracted the main, basic features such as number of pitches and pitch classes, mean pitch and mean pitch class, as well as Range.
+	I have also decided to extract some features which I believe can provide useful insight into this song such as strong tonal centres, most common pitch
+        and pitch class, the interval between the most prevalent pitches, pitch variability and most common melodic interval.
+	
+	  
+	<br/> <br/>  Access the csv file <a href="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/weeko4/week4-cant-help-falling-in-love.csv"> here.</a> 
+  </p>
+
+<!--NEED SOME HELP WITH THIS STUFF, NEED TO WRITE MY OWN STUFF-->
+
+	<h2> Task 2: Generating a piano roll and a pitch histogram </h2>
+	<table>
+	<tr> 
+	<td class="description"> <b> Pitch histogram </b> <br/> <br/>
+                This pitch histogram shows the number of times a particular note has been 
+		played in a song. According to this histogram, the most common pitch in my piece is XXX, 
+		which is consistent with the data extracted from jSymbolic as MIDI pitch value of XXX is equivalent to XXX. </td>
+	<td class="image"><img id="img1" src="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week04/histogram.png?raw=true"> </td>
+	</tr> 
+	<tr>
+	<td class="description"> <b> Piano Roll </b> <br/> <br/>This piano roll shows the order, length, 
+		and pitch of the notes played in the song. 
+                It appears to support the rest of analytical data from this page (as seen when comparing
+		it with the histogram for example, since the commonality of notes presented in the histogram seems to correspond to the piano roll).  </td>
+	<td class="image"><img id="img2" src="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week04/piano-roll.png?raw=true"> </td>
+	</tr>
+	<tr>
+	<td class="description"> <b> Scatter Plot of Pitches </b> <br/> <br/> 
+                The scatter plot of pitches plots pitch against note length. Again, this seems to be consistent
+		with my song as, for example, according to the graph the semibreve notes present in a song are A and C# which is consistent with the actual song.
+		</td>
+	<td class="image"> <img id="img3" src="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week04/scatter-plot-of-pitches.png?raw=true"> </td>
+	</tr>
+	</table>
+<table> 
+	<tr> 
+		<td id="left"> <a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week03/week03.html"> << week 3: Encoding Notated Music </a> </td>
+		<td id="right"> <a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week05/week05.html"> week 5: Basic Metadata >></a> </td> 
+	</tr>
+</table>
+
+</div>
+</body>
+</html>
