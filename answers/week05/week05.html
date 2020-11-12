@@ -1,0 +1,144 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title> Week 5: Basic Metadata </title> 
+  <style> 
+  .container {
+  max-width: 1012px;
+  margin-left: auto;
+  margin-right:auto;
+margin-top:20px;
+  }
+  body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    line-height: 1.5;
+    color: #24292e;
+    background-color: #fff;
+	}
+	h1 {
+    padding-bottom: 10px;
+    font-size: 36px;
+    border-bottom: 1px solid #eaecef;
+	}
+	
+	h2 {
+    padding-bottom: 10px;
+    font-size: 24px;
+    border-bottom: 1px solid #eaecef;
+	}
+    
+   table {
+   width: 100%;
+	margin-top:50px;
+   margin-bottom: 50px;
+   margin-right: 30px;
+   margin-left:30px;
+   }
+   
+   
+      #right {
+   text-align: right;
+	border: none;
+   }
+#left{
+	border:none;
+	  }
+  
+#menu {
+display: block;
+width: 100%;
+overflow: auto;
+margin-right: 0px;
+margin-left: 0px;
+padding-top: 10px;
+padding-bottom: 10px;
+border: 1px solid #c6cbd;
+border-collapse:collapse;
+display: table-row-group;
+vertical-align: middle;
+	  }
+	  
+#menu, tr {
+    border: 1px solid #c6cbd1;
+	  }
+	  
+#menu, tr, td {
+	padding: 6px 13px;
+	border: 1px solid #dfe2e5; 
+	  }
+#menu, tr, td, a {
+	text-decoration: none;
+	color: #0366d6;
+	  }
+	  
+  </style>
+</head>
+<body>
+	<div class="container"> 
+<h1><a href="https://github.com/tieghanmcmullan/MCA-2020">MCA-2020</a></h1>
+
+<!--table links-->
+<table class="menu">
+    <tr>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020">WEEK 1</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week02/week02.html">WEEK 2</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week03/week03.html">WEEK 3</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week04/week04.html">WEEK 4</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week05/week05.html">WEEK 5</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week07/week07.html">WEEK 7</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week08/week08.html">WEEK 8</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week09/week09.html">WEEK 9</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week10/week10.html">WEEK 10</a></td>
+    </tr>
+</table>
+
+
+  <h1> Week 5: Basic Metadata </h1>
+  <h2> Task 1: Creating a Metadata Scheme </h2>
+  <p> If I were to have 1000 different MEI files in my GitHub repository, these are the metadata elements I would use to describe them as I believe they are the most important:
+
+<ol>
+	<li> <h3> Metadata about the file itself: </h3> 
+		<ul> <li> <b> title (plus an optional subtitle if there is one): </b> name of the transcribed piece </li>
+		<li> <b>composer:</b> name of the individual(s)/band who created the musical work </li>
+		<li> <b>lyricist:</b> name of the individual(s)/band who wrote the lyrics </li>
+		<li> <b>arranger:</b> name of the person/band responsible for the particular arrangement of the piece of music </li>
+		<li> <b>encoder:</b> name of the individual(s) that encoded the file </li>
+		<li> <b>source:</b> source from which the file was transcribed </li>
+		<li> <b>size:</b> physical size of the file itself </li>
+		<li> <b>publisher:</b> name of the individual/organisation responsible for the publication of the piece of work </li>
+		<li> <b>publisher’s location:</b> postal address or at least a city of the publisher </li>
+		<li> <b>date:</b> date of publication </li>
+		<li> <b>usage restrictions:</b> legal statute of the work regarding its distribution, publication, etc. </li> 
+	</ul>
+	</li> 
+
+	<li> <h3> Metadata about the encoding process: </h3>
+	<ul> 	<li> <b>editorial changes:</b> description of any editorial practices that happened during the transcription of the file </li>
+		<li> <b>project description:</b> describes the purpose for which the file was created </li>
+	</ul>
+	</li>
+
+<li> <h3> Metadata about the original piece (if the source of transcription is different from the original piece): </h3> 
+	<ul> 	<li> <b>title:</b> name of the original piece </li>
+		<li> <b>arranger:</b> name of the arranger of the original piece </li>
+		<li> <b>composer:</b> name of the individual(s) reponsible for the creation of the original musical work </li>
+		<li> <b>lyricist:</b> name of the individual(s) that wrote the lyrics for the original work </li>
+		<li> <b>year:</b> year of the orignal work's creation </li>
+	</ul>
+	</li>
+</ol>
+  </p>
+	<h2> Task 2: Modifying the MEI file </h2>
+	<p> The MEI file was updated to contain the above listed metadata and can be accessed <a href="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week05/cant_help_falling_in_love_week5.mei.xml"> here</a>.  </p>
+<table> 
+	<tr> 
+		<td id="left"> <a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week04/week04.html"> << week 4: Basic Analytics </a> </td>
+		<td id="right"> <a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week07/week07.html"> week 7: Curation Challenges >></a> </td> 
+	</tr>
+</table>
+
+</div>
+</body>
+</html>
