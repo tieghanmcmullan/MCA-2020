@@ -1,3 +1,86 @@
+<!--css styling-->
+body {
+    font-family: lucida bright
+    font-size: 18px;
+    line-height: 1.8;
+    color: black;
+    background-color: white;
+	}
+
+h1 {
+    padding-bottom: 5px;
+    font-size: 30px;
+    border-bottom: 6px solid teal;
+	}
+	
+
+img{
+    width: 550px;
+    height: 750px;
+	border-radius: 10px;
+    display: block;
+    margin: 60px;
+	text-align: center;
+    }
+   
+#download {
+   text-align:center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   }
+   
+table {
+   width: 100%;
+	margin-top:50px;
+   margin-bottom: 50px;
+   margin-right: 50px;
+   
+   }
+   
+#right {
+   text-align: right;
+	border: none;
+   }
+
+#left{
+	border:none;
+	  }
+  
+#menu {
+display: block;
+width: 100%;
+overflow: auto;
+margin-right: 0px;
+margin-left: 0px;
+padding-top: 10px;
+padding-bottom: 10px;
+border: 5px solid #c6cbd;
+border-collapse:collapse;
+display: table-row-group;
+vertical-align: middle;
+	  }
+	  
+a:hover {
+  color: springgreen;
+}
+	  
+#menu, tr {
+    border: 3px solid teal;
+	  }
+	  
+#menu, tr, td {
+	padding: 3px 15px;
+	border: 3px solid teal; 
+	  }
+
+#menu, tr, td, a {
+	text-decoration: none;
+	color: teal;
+	  }
+
+
+
+
 [WEEK 1](https://tieghanmcmullan.github.io/MCA-2020) 
 | [WEEK 2](https://tieghanmcmullan.github.io/MCA-2020/answers/week02/week02.html) 
 | [WEEK 3](https://tieghanmcmullan.github.io/MCA-2020/answers/week03/week03.html) 
