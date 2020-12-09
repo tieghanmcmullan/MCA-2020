@@ -3,52 +3,56 @@
 <head>
   <title> Week 3: Encoding Notated Music </title> 
   <style> 
-  .container {
-  max-width: 1012px;
+<!--css styling-->
+
+.container {
+  max-width: 950px;
   margin-left: auto;
   margin-right:auto;
-margin-top: 20px;
+  margin-top: 5px;
   }
-  body {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 16px;
-    line-height: 1.5;
-    color: #24292e;
-    background-color: #fff;
-	}
-	h1 {
-    padding-bottom: 10px;
-    font-size: 36px;
-    border-bottom: 1px solid #eaecef;
+
+
+body {
+    font-family: lucida bright
+    font-size: 18px;
+    line-height: 1.8;
+    color: black;
+    background-color: white;
 	}
 	
-	h2 {
-    padding-bottom: 10px;
-    font-size: 24px;
-    border-bottom: 1px solid #eaecef;
+h1 {
+    padding-bottom: 5px;
+    font-size: 30px;
+    border-bottom: 6px solid teal;
 	}
 	
-	 #app {
+h2 {
+    padding-bottom: 5px;
+    font-size: 25px;
+    border-bottom: 6px solid teal;
+	}
+
+#app {
         height: auto;
         width: 100%;
         top: 80px;
         bottom: 0;
     }
     
-   table {
+table {
    width: 100%;
 	margin-top:50px;
    margin-bottom: 50px;
-   margin-right: 30px;
-   margin-left:30px;
+   margin-right: 50px;
+   
    }
    
-   
-	  
-   #right {
+#right {
    text-align: right;
 	border: none;
    }
+
 #left{
 	border:none;
 	  }
@@ -61,34 +65,36 @@ margin-right: 0px;
 margin-left: 0px;
 padding-top: 10px;
 padding-bottom: 10px;
-border: 1px solid #c6cbd;
+border: 5px solid teal;
 border-collapse:collapse;
 display: table-row-group;
 vertical-align: middle;
 	  }
 	  
+#app {
+	margin-top: 10px;}
+	  
 #menu, tr {
-    border: 1px solid #c6cbd1;
+    border: 3px solid teal;
 	  }
 	  
 #menu, tr, td {
-	padding: 6px 13px;
-	border: 1px solid #dfe2e5; 
+	padding: 3px 15px;
+	border: 3px solid teal; 
 	  }
+
 #menu, tr, td, a {
-	text-decoration: none;
-	color: #0366d6;
+	text-decoration: teal;
+	color: teal;
 	  }
 	  
-#app {
-	margin-top: 20px;}
   </style>
 </head>
 <body>
 	<div class="container"> 
-<h1><a href="https://github.com/katja-andric/MCA-2019">MCA-2019</a></h1>
+<h1><a href="https://github.com/tieghanmcmullan/MCA-2020">MCA-2020</a></h1>
 
-<!--table links-->
+<!--menu-->
 <table class="menu">
     <tr>
       <td><a href="https://tieghanmcmullan.github.io/MCA-2020">WEEK 1</a></td>
@@ -105,20 +111,20 @@ vertical-align: middle;
 
   <h1> Week 3: Encoding Notated Music </h1>
   <h2> Task 1: Generating MusicXML and MEI files </h2>
-  <p> The first part of this week's task was to export our MuseScore files from last week to a MusicXML file, 
+  <p> In the first section of this week's task I had to export my MuseScore files from last week to a MusicXML file, 
       and subsequently an MEI file. I have provided links below to access these: <br/><br/> 
 
-      Download the MusicXML file <a href="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week03/cant_help_falling_in_love.musicxml"> here.</a> </br>
-      Download the MEI file <a href="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week03/cant_help_falling_in_love.mei"> here.</a>
+      Download my Week 3 MusicXML file <a href="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week03/cant_help_falling_in_love.musicxml"> here.</a> </br>
+      Download my Week 3 MEI file <a href="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week03/cant_help_falling_in_love.mei"> here.</a>
   </p>
 	<h2> Task 2: Rendering the MEI file using Verovio </h2>
-	<p> For the next part of Week 3 Tasks, I have copied the code from 'verovio.html' file and edited it.
+	<p> For part 2 of my Week 3 Tasks, I have copied the code from 'verovio.html' file and edited it.
             This then displays my rendered file as a part of this website. <br>
-            Note: if the Verovio app is not loading properly, please refresh the page.
+            Please refresh the page if the Verovio app does not load properly at first...
         </p>
 
 
-	 <div id="app">Verovio is loading...</div>
+	 <div id="app">Verovio loading...</div>
     <script type="module">
         import 'https://www.verovio.org/javascript/app/verovio-app.js';
         
@@ -145,8 +151,8 @@ vertical-align: middle;
     </script>
 <table> 
 	<tr> 
-		<td id="left"> <a href="https://tieghanmcmullan/MCA-2020/answers/week02/week02.html"> << week 2: Notated Music </a> </td>
-		<td id="right"> <a href="https://tieghanmcmullan/MCA-2020/answers/week04/week04.html"> week 4: Computational analytics of notated music </a> </td> 
+		<td id="left"> <a href="https://tieghanmcmullan/MCA-2020/answers/week02/week02.html"> Week 2: Notated Music </a> </td>
+		<td id="right"> <a href="https://tieghanmcmullan/MCA-2020/answers/week04/week04.html"> Week 4: Computational analytics of notated music </a> </td> 
 	</tr>
 </table>
 
