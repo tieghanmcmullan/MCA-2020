@@ -329,7 +329,7 @@ mei-worklist > mei-classification > mei-genre::before {
         I had already included the licensing data in Week 5 so no need to do this again, then I went over the metadata from 
 		Week 5 to make sure everything formatted correctly.
         <br/>
-	Access the updated file <a href="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week07/cant_help_falling_in_love_week7.mei.xml">here</a>.
+	Access the updated file <a href="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week07/cant_help_falling_in_love_week7.mei">here</a>.
 </p>
 
 	<h2> Task 2: Rendering revised metadata </h2>
@@ -344,7 +344,7 @@ mei-worklist > mei-classification > mei-genre::before {
           enableDocument: true // default is true
       }
       // A MusicXML file
-      var file = 'cant_help_falling_in_love_week7.mei.xml';
+      var file = 'cant_help_falling_in_love_week7.mei';
       // A MEI file
       //var file = 'https://www.verovio.org/editor/brahms.mei';
       const app = new Verovio.App(document.getElementById("app"), options);
@@ -359,7 +359,7 @@ mei-worklist > mei-classification > mei-genre::before {
   <script>
     // Get, parse, and show TEI data
     var CETEIcean = new CETEI()
-    CETEIcean.getHTML5('cant_help_falling_in_love_week7.mei.xml', function(data) {
+    CETEIcean.getHTML5('cant_help_falling_in_love_week7.mei', function(data) {
       document.getElementById("TEI").appendChild(data)
     })
     // Get, parse and show MEI header data
@@ -369,7 +369,7 @@ mei-worklist > mei-classification > mei-genre::before {
         mei: "http://www.music-encoding.org/ns/mei"
       }
     })
-    CETEI4MEI.getHTML5('cant_help_falling_in_love_week7.mei.xml', function(data) {
+    CETEI4MEI.getHTML5('cant_help_falling_in_love_week7.mei', function(data) {
       // get header
       var meiHead = data.querySelector('mei-meiHead')
       document.getElementById("MEImeta").appendChild(meiHead)
@@ -383,7 +383,7 @@ mei-worklist > mei-classification > mei-genre::before {
         scale: 50,
         adjustPageHeight: true
     })
-    fetch('cant_help_falling_in_love_week7.mei.xml').then(function( response ) {
+    fetch('cant_help_falling_in_love_week7.mei').then(function( response ) {
         response.text().then(function( data ) {
           var svg = vrvToolkit.renderData(data, {})
           document.getElementById('MEI').innerHTML = svg
