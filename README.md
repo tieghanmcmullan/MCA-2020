@@ -42,3 +42,4 @@ In terms of notated music, there are a number of digitalised sheet music website
 My favourite of these is "musicnotes.com" as it has a wide selection of his music and is very easy to navigate. 
 It also has a filter function where you can sort the files by the artist, title, album and even instruments. 
 
+[Week 2: Notated Music >>](https://tieghanmcmullan.github.io/MCA-2020/answers/week02/week02.html)
