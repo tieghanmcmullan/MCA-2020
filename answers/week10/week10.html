@@ -1,0 +1,198 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title> Week 10: Audio Similarity and Transcription </title> 
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <style> 
+<!--css styling-->
+
+.container {
+  max-width: 950px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 5px;
+  }
+ 
+body {
+    font-family: lucida bright
+    font-size: 18px;
+    line-height: 1.8;
+    color: black;
+    background-color: white;
+	}
+
+h1 {
+    padding-bottom: 5px;
+    font-size: 30px;
+    border-bottom: 6px solid teal;
+	}
+	
+h2 {
+    padding-bottom: 5px;
+    font-size: 25px;
+    border-bottom: 6px solid teal;
+	}
+    
+table {
+   width: 100%;
+	margin-top:50px;
+   margin-bottom: 50px;
+   margin-right: 50px;
+   }
+   
+#right {
+   text-align: right;
+	border: none;
+   }
+   
+#left{
+	border:none;
+	  }
+  
+#menu {
+display: block;
+width: 100%;
+overflow: auto;
+margin-right: 0px;
+margin-left: 0px;
+padding-top: 10px;
+padding-bottom: 10px;
+border: 5px solid teal;
+border-collapse:collapse;
+display: table-row-group;
+vertical-align: middle;
+	  }
+	  
+#menu, tr {
+    border: 3px solid teal;
+	  }
+	  
+#menu, tr, td {
+	padding: 3px 15px;
+	border: 3px solid teal; 
+	  }
+
+#menu, tr, td, a {
+	text-decoration: teal;
+	color: teal;
+	  }
+	 
+
+.swiper-container {
+    width: 700px;
+    height: 500px;
+    margin-top: 30px;
+	margin-bottom: 30px;
+    }
+    
+.pages{
+    width: 600px;
+    height: 400px;
+    }
+	  
+.swiper-wrapper {
+   text-align:center;
+   }
+
+#nav {
+	  margin: 30px;
+	  }
+
+#matrix {
+		float:right;
+		margin-left: 20px;
+	  }
+  
+
+  </style>
+  
+</head>
+<body>
+
+<div class="container"> 
+	
+<h1><a href="https://github.com/tieghanmcmullan/MCA-2020">MCA-2020</a></h1>
+
+<!--menu-->
+<table class="menu">
+    <tr>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020">WEEK 1</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week02/week02.html">WEEK 2</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week03/week03.html">WEEK 3</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week04/week04.html">WEEK 4</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week05/week05.html">WEEK 5</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week07/week07.html">WEEK 7</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week08/week08.html">WEEK 8</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week09/week09.html">WEEK 9</a></td>
+      <td><a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week10/week10.html">WEEK 10</a></td>
+    </tr>
+</table>
+
+<!-- tasks-->
+
+<h1> Week 10: Audio Similarity and Transcription </h1>
+
+<h2> Task 1: Generating a Similarity Matrix </h2>
+
+<p><img id="matrix" src="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week10/week10similaritymatrix.png?raw=true"/> 
+For this part of the task, I have used different tracks from the last few weeks. 
+
+In the similarity matrix:<br>
+Tracks 0, 1, 2 and 3 are of the classical genre.<br>
+Tracks 4, 5, 6 and 7 are of the rock genre.<br>
+Tracks 7, 8 and 9 are my tracks which are all of the pop genre. 
+
+The matrix reflects these genres as the rock tracks (4, 5 & 6) and the pop tracks (7, 8 and 9) and more similar to eachother whilst
+the classical tracks look quite different. This could be because these tracks have similar tempo and notes played and sometimes these genres 
+can coincide whereas classical is very different. 
+</p>
+
+
+<h2> Task 2: Transcription </h2>
+		<p> In Task 2, I used the file I created in Week 2 of "Can't Help Falling In Love" by Elvis. 
+		    I did this by:
+		<ul>
+		   <li>Exporting the MuseScore (.msc) file into a wav file.</li>
+		   <li>Importing this wav file into SonicVisualiser where I transformed the file into a piano roll</li>
+		   <li>I then exported this piano roll into a MIDI file</li>
+		   <li>I opened this MIDI file in MuseScore and then exported it as an image file</li>
+		 </ul>
+
+I have included 2 images below which show my original transcribed piece and the updated file I created this week.
+
+<img src "https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week10/cant_help_falling_in_love_week10.png?raw=true">  
+<img src "https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week10/cant_help_falling_in_love_week10_new_version-1.png?raw=true">  				
+				
+		
+<p> The two files are very clearly different. First of all, the new file has a key signture which was not in the original. 
+The tempo and time signature has remained the same in both files. Every bar has changed and as a result the new file sounds very
+different from the original. <br>
+
+The notes in bars 14 and 15 sound very different - the new file has these notes really quite high when 
+as in the original they should be quite low to go with the tune we all know. There are definitely a lot more notes in the new version
+compared to the original and this makes the sound much more layered. 
+<br>
+
+My favourite part of the melody is in bars 33/34 to around 43/44 - I feel the new file has definitely enhanced the original at this point in the song
+with more notes it creates more depth.
+
+</p>
+
+<a id="nav" href="https://tieghanmcmullan.github.io/MCA-2020/answers/week08/week08.html"> Week 9: Analysing and Extracting Meaning from Audio </a> 
+</div>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script>
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  })
+</script>
+</body>
+</html>
