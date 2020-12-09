@@ -3,44 +3,45 @@
 <head>
   <title> Week 7: Challenges to Music Curation </title> 
   <style> 
-  .container {
-  max-width: 1012px;
+.container {
+  max-width: 950px;
   margin-left: auto;
   margin-right:auto;
-margin-top: 20px;
+  margin-top: 5px;
   }
-  body {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 16px;
-    line-height: 1.5;
-    color: #24292e;
-    background-color: #fff;
+ 
+body {
+    font-family: lucida bright
+    font-size: 18px;
+    line-height: 1.8;
+    color: black;
+    background-color: white;
 	}
-	h1 {
-    padding-bottom: 10px;
-    font-size: 36px;
-    border-bottom: 1px solid #eaecef;
+
+h1 {
+    padding-bottom: 5px;
+    font-size: 30px;
+    border-bottom: 6px solid teal;
 	}
 	
-	h2 {
-    padding-bottom: 10px;
-    font-size: 24px;
-    border-bottom: 1px solid #eaecef;
+h2 {
+    padding-bottom: 5px;
+    font-size: 25px;
+    border-bottom: 6px solid teal;
 	}
     
-   table {
+table {
    width: 100%;
 	margin-top:50px;
    margin-bottom: 50px;
-   margin-right: 30px;
-   margin-left:30px;
+   margin-right: 50px;
    }
 
-   
-    #right {
+#right {
    text-align: right;
 	border: none;
    }
+
 #left{
 	border:none;
 	  }
@@ -53,37 +54,38 @@ margin-right: 0px;
 margin-left: 0px;
 padding-top: 10px;
 padding-bottom: 10px;
-border: 1px solid #c6cbd;
+border: 5px solid teal;
 border-collapse:collapse;
 display: table-row-group;
 vertical-align: middle;
 	  }
 	  
 #menu, tr {
-    border: 1px solid #c6cbd1;
+    border: 3px solid teal;
 	  }
 	  
 #menu, tr, td {
-	padding: 6px 13px;
-	border: 1px solid #dfe2e5; 
+	padding: 3px 15px;
+	border: 3px solid teal; 
 	  }
+
 #menu, tr, td, a {
-	text-decoration: none;
-	color: #0366d6;
+	text-decoration: teal;
+	color: teal;
 	  }
 	  
-	mei-titlestmt > mei-title {
-	font-size: 25px;
+mei-titlestmt > mei-title {
+	font-size: 22px;
     text-transform: capitalize;
     display: block;
-	font-family: Impact;
+	font-family: lucidabright;
     }
     
 #subtitle {
 	display: block;
     text-transform: uppercase;
-    font-family: Arial Black;
-    font-size: 12px;
+    font-family: lucidabright;
+    font-size: 11px;
 	color: #4d5054;
 }
 
@@ -94,7 +96,7 @@ mei-titlestmt > mei-composer {
 
 mei-titlestmt > mei-composer::before {
 	content: "Artist:";
-	font-family: Arial;
+	font-family: lucidabright;
 	font-weight: bold;
     }  
 mei-titlestmt > mei-arranger {
@@ -103,7 +105,7 @@ mei-titlestmt > mei-arranger {
 
 mei-titlestmt > mei-arranger::before {
 	content: "Arrangement by:";
-	font-family: Arial;
+	font-family: lucidabright;
 	font-weight: bold;
     }
 mei-titlestmt > mei-respstmt > mei-resp {
@@ -117,7 +119,7 @@ mei-titlestmt >  mei-respstmt > mei-name {
 
 mei-titlestmt >  mei-respstmt > mei-name::before {
 	content: "Encoded by:";
-	font-family: Arial;
+	font-family: lucidabright;
 	font-weight: bold;
 	
     }	
@@ -127,8 +129,8 @@ mei-extent {
 mei-editionstmt > mei-title::before {
 	content: "Source of Transcription";
 	text-transform: uppercase;
-	font-family: Arial Black;
-	font-size: 12px;
+	font-family: lucidabright;
+	font-size: 11px;
 	display:block;
 	  }
 
@@ -143,7 +145,7 @@ mei-editionstmt > #subtitle {
 	 
 mei-editionstmt > mei-arranger::before {
 	content: "Arranger:";
-	font-family: Arial;
+	font-family: lucidabright;
 	font-weight: bold;
 	  }
 	  
@@ -157,7 +159,7 @@ mei-editionstmt > mei-respstmt > mei-resp {
 	  
 mei-editionstmt > mei-respstmt > mei-name::before {
 	content: "Published on:";
-	font-family: Arial;
+	font-family: lucidabright;
 	font-weight: bold;
 	  }
 	  
@@ -220,8 +222,8 @@ mei-appinfo > mei-application > mei-p {
 mei-worklist > mei-title::before {
 	content: "Original Piece of Work";
 	text-transform: uppercase;
-	font-family: Arial Black;
-	font-size: 12px;
+	font-family: lucidabright;
+	font-size: 11px;
 	display:block;
 	  }
 mei-worklist > mei-title {
@@ -230,7 +232,7 @@ mei-worklist > mei-title {
 	  
 mei-worklist > mei-composer::before {
 	content: "Artist:";
-	font-family: Arial;
+	font-family: lucidabright;
 	font-weight: bold;
 	  }
 	
@@ -244,13 +246,13 @@ mei-worklist > mei-lyricst {
 	  
 mei-worklist > mei-lyricst::before {
 	content: "Lyrics:";
-	font-family: Arial;
+	font-family: lucidabright;
 	font-weight: bold;
 	  }
 	  
 mei-worklist > mei-creation > mei-date::before {
 	content: "Released:";
-	font-family: Arial;
+	font-family: lucidabright;
 	font-weight: bold;
 	  }
 	  
@@ -264,7 +266,7 @@ mei-worklist > mei-creation > mei-geogname {
 	  
 mei-worklist > mei-creation > mei-geogname::before {
 	content: "Location:";
-	font-family: Arial;
+	font-family: lucidabright;
 	font-weight: bold;
 	  }
 	  
@@ -275,7 +277,7 @@ mei-worklist > mei-classification > mei-genre {
 	  
 mei-worklist > mei-classification > mei-genre::before {
 	content: "Genre:";
-	font-family: Arial;
+	font-family: lucidabright;
 	font-weight: bold;
 	
 	  }
