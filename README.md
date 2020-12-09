@@ -35,7 +35,7 @@ and so much more.
 ### Acoustic 
 The acoustic data can be found on all major streaming services such as Apple Music and Spotify. Acoustic data is also published on Youtube 
 by the offical Elvis youtube account and many other users in the form of live performances, covers of his music, and lyrical videos. 
-A lot of the content on youtube isnjsut the audio recording with the album cover on screen. 
+A lot of the content on youtube is just the audio recording with the album cover on screen. 
 
 ### Notated 
 In terms of notated music, there are a number of digitalised sheet music websites where you can find Elvis' songs. 
