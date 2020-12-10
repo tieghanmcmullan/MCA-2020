@@ -76,6 +76,21 @@ vertical-align: middle;
 	text-decoration: teal;
 	color: teal;
 	  }
+.swiper-container {
+    width: 700px;
+    height: 500px;
+    margin-top: 30px;
+	margin-bottom: 30px;
+    }
+    
+.pages{
+    width: 600px;
+    height: 400px;
+    }
+	  
+.swiper-wrapper {
+   text-align:center;
+   }
 	 
 
 #nav {
@@ -87,24 +102,7 @@ vertical-align: middle;
 		margin-left: 20px;
 	  }
 
-#img001 {
-    width: 550px;
-    height: 750px;
-	border-radius: 10px;
-    display: block;
-    margin: 60px;
-	text-align: center;
-    }
-	  
-	  
-#img002 {
-    width: 550px;
-    height: 750px;
-	border-radius: 10px;
-    display: block;
-    margin: 60px;
-	text-align: center;
-    }
+
 
   </style>
   
@@ -163,9 +161,16 @@ can coincide whereas classical is very different.
 
 I have included 2 images below which show my original transcribed piece and the updated file I created this week.
 
-<img id="img001" src="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week10/cant_help_falling_in_love_week10.png?raw=true"/>  
-<img id="img002" src="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week10/cant_help_falling_in_love_week10_new_version-1.png?raw=true"/> 
- 				
+  <div class="swiper-container"> <!-- I obtained the code for the slider from: https://swiperjs.com - it is free to use so I have credited it here-->
+    <div class="swiper-wrapper">
+        
+        <div class="swiper-slide"><img class="pages" src=https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week10/cant_help_falling_in_love_week10.png?raw=true"></div>
+        <div class="swiper-slide"><img class="pages" src="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week10/cant_help_falling_in_love_week10_new_version-1.png?raw=true/></div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div> 				
 				
 		
 <p> The two files are very clearly different. First of all, the new file has a key signture which was not in the original. 
