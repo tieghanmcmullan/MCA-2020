@@ -5,24 +5,15 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
 
 <!--css styling-->
+<style> 
 
-  <style> 
+
 .container {
   max-width: 950px;
   margin-left: auto;
   margin-right:auto;
 margin-top: 5px;
   }
-  
-.swiper-container {
-    width: 600px;
-    height: 700px;
-    margin-top: 20px;
-    }
-	
-.swiper-wrapper {
-   text-align:center;
-   }
   
 body {
     font-family: lucida bright
@@ -102,16 +93,28 @@ a:hover {
 	text-decoration: none;
 	color: teal;
 	  }
+	
+.swiper-container {
+    width: 600px;
+    height: 700px;
+    margin-top: 20px;
+    }
+	
+.swiper-wrapper {
+   text-align:center;
+   }
+	
   </style>
 </head>
 
 <!--content-->
 
 <body>
-	<div class="container"> 
-<h1><a href="https://github.com/tieghanmcmullan/MCA-2020">MCA-2020</a></h1>
+	
+<div class="container"> 
+<h1><a href="https://github.com/tieghanmcmullan/MCA-2020">Music Curation and Analytics - 2020</a></h1>
 
-<!--menu-->
+<!--menu for moving through weekly tasks-->
 <table class="menu">
     <tr>
       <td><a href="https://tieghanmcmullan.github.io/MCA-2020">WEEK 1</a></td>
@@ -127,15 +130,20 @@ a:hover {
 </table>
 
 <h1> Week 2: Notated Music </h1>
-  <p> For the task this week, I decided to transcribe the popular song 'Can't Help Falling in Love' by Elvis. 
-      The arrangement I worked from was written by a user named ishcobob and can be accessed on MuseScore
+  <p> For the task this week, I decided to transcribe the popular song 'Can't Help Falling in Love' by Elvis, which is one of my favourites. 
+  <br>
+      The arrangement I worked from was written by a user named ishcobob and can be accessed on MuseScore - link 
   <a href="https://musescore.com/user/19599391/scores/4890706">here</a>.
 
-  Originally, the arrangement is for a piano and I have transcribed it as such, I wanted to keep things as simple as possible since I have no musical experience.<br/> </br>
-  Below is a screenshot of a pdf version of my MuseScore file. Alternatively, you can download the MuseScore file <a href="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week02/cant_help_falling_in_love.mscz?raw=true">here.</a>
+  Originally, the arrangement is for a "Easy Piano" so I have transcribed it in the same way, I wanted to keep things as simple as possible since I have no musical experience.
+	  This would help me to focus on getting to know MuseScore.
+	  <br/> </br>
+	
+  Below is a screenshot of the pdf I created of my "Can't Help Falling in Love" MuseScore file. 
+	<br> You can also download my MuseScore file - link <a href="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week02/cant_help_falling_in_love.mscz?raw=true">here.</a>
   </p>
 
-<!--code for the slider found on: https://swiperjs.com and is free to use-->
+<!--The code for this slider was accessed at https://swiperjs.com - it is free to use so I have credited here-->
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide"><img src="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week02/screenshot1.jpg?raw=true"></div>
@@ -147,11 +155,12 @@ a:hover {
 </div>
 <table> 
 	<tr> 
-		<td id="left"> <a href="https://tieghanmcmullan.github.io/MCA-2020/"> Week 1: My Dataset </a> </td>
-		<td id="right"> <a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week03/week03.html"> Week 3: Encoding Notated Music</a> </td> 
+		<td id="left"> <a href="https://tieghanmcmullan.github.io/MCA-2020/"> Click here for Week 1 Tasks: My Dataset </a> </td>
+		<td id="right"> <a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week03/week03.html"> Click here for Week 3 Tasks: Encoding Notated Music</a> </td> 
 	</tr>
 </table>
 </div>
+
 <script src="https://unpkg.com/swiper/js/swiper.js"></script>
 <script>
   var mySwiper = new Swiper ('.swiper-container', {
