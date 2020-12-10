@@ -19,6 +19,7 @@ body {
     line-height: 1.8;
     color: black;
     background-color: white;
+    text-align: justify;
 	}
 
 h1 {
@@ -32,6 +33,21 @@ h2 {
     font-size: 25px;
     border-bottom: 6px solid teal;
 	}
+	  
+#image1 {
+  width: 500px;
+  height: auto;
+  }
+  
+#image2 {
+  width: 750px;
+  height: auto;
+  }
+  
+#image3 {
+  width: 500px;
+  height: auto;
+  }
     
 table {
    width: 100%;
@@ -58,22 +74,7 @@ table {
   border:none;
   }
   
-#image1 {
-  width: 500px;
-  height: auto;
-  }
-  
-#image2 {
-  width: 750px;
-  height: auto;
-  }
-  
-#image3 {
-  width: 500px;
-  height: auto;
-  }
-  
-    #right {
+#right {
    text-align: right;
 	border: none;
    }
@@ -122,7 +123,7 @@ ul{
 	<div class="container"> 
 <h1><a href="https://github.com/tieghanmcmullan/MCA-2020">MCA-2020</a></h1>
 
-<!--menu-->
+<!--menu to link each weekly task-->
 <table class="menu">
     <tr>
       <td><a href="https://tieghanmcmullan.github.io/MCA-2020">WEEK 1</a></td>
@@ -138,51 +139,59 @@ ul{
 </table>
 
   <h1> Week 4: Basic Analytics </h1>
-  <h2> Task 1: Generating a jSymbolic </h2>
-  <p> I have generated a JSymbolic of my piece, picking out features that I feel are important. 
+  <h2> Task 1: Generating a jSymbolic of my musical piece</h2>
+		
+  <p> For this task, I have generated a JSymbolic of my piece. I picked out the features that I feel are important and interesting when looking at my piece. <br>
+	  Below is a list of the features I have included:
   
 	  <ul> 
-		  <li> <b> Number of Pitches: </b> 26 </li>
 		  <li> <b> Number of Pitch Classes: </b> 8 </li>
-		  <li> <b> Range: </b> 42 </li>
+		  <li> <b> Number of Pitches: </b> 26 </li>
 		  <li> <b> Strong Tonal Centres: </b> 2 </li>
-		  <li> <b> Mean Pitch: </b> 58 </li>
-		  <li> <b> Mean Pitch Class: </b> 5.157 </li>
-		  <li> <b> Most Common Pitch: </b> 48 </li>
-		  <li> <b> Most Common Pitch Class: </b> 7 </li>
-		  <li> <b> Interval Between Most Prevalent Pitches: </b> 4 </li>
+		  <li> <b> Range: </b> 42 </li>
 		  <li> <b> Pitch Variablity: </b> 10.89 </li>
+		  <li> <b> Mean Pitch Class: </b> 5.157 </li>
+		  <li> <b> Mean Pitch: </b> 58 </li>
+		  <li> <b> Most Common Pitch Class: </b> 7 </li>
+		  <li> <b> Most Common Pitch: </b> 48 </li>
 		  <li> <b> Most Common Melodic Interval: </b> 2 </li>
+		  <li> <b> Interval Between Most Prevalent Pitches: </b> 4 </li>
 		 
-	</ul> </br>
-        I have extracted the main, basic features such as number of pitches and pitch classes, mean pitch and mean pitch class, as well as Range.
-	    I have also extracted some features which I believe can provide further insight into this song such as strong tonal centres, most common pitch
-        and pitch class, the interval between the most prevalent pitches, pitch variability and most common melodic interval.
-	
+	 </ul> </br>
+	 
+            I have extracted the main and most basic features about the piece such as number of pitches and pitch classes, mean pitch and mean pitch class, as well as Range.
+	    I have also extracted some features which I believe can provide more information about this song such as strong tonal centres, most common pitch
+            and pitch class, the interval between the most prevalent pitches, pitch variability and most common melodic interval. 
+	    These features will allow me to learn more information about my piece. For example, the most common melodic interval tells me that the most 
+	    common distance between notes in the melody of this piece is 2. Furthermore, the most common pitch can give me insight into how high or low the piece of music is.
+
 	  
-	<br/> <br/>  Access the csv file <a href="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week04/week4-cant-help-falling-in-love.csv"> here.</a> 
+	<br/> <br/>  You can access the csv file which contains this information at the link
+	<a href="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week04/week4-cant-help-falling-in-love.csv"> here.</a> 
   </p>
 
 
 
-	<h2> Task 2: Generating a piano roll and a pitch histogram </h2>
+	<h2> Task 2: Generating a pitch histogram and piano roll</h2>
 	<table>
 	<tr> 
+        <p>Next, I used jupyter notebook to generate a pitch histogram and a piano roll of my piece.</p>
+		
 	<td class="description"> <b> Pitch histogram </b> <br/> <br/>
-        My pitch histogram which is displayed in this diagram shows the number of times each particular note has been 
+        My pitch histogram shown in this diagram shows the number of times each particular note has been 
         played in the song. </td>
 	<td class="image"><img id="image1" src="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week04/histogram.png?raw=true"> </td>
 	</tr> 
 	<tr>
 	<td class="description"> <b> Piano Roll </b> <br/> <br/>
-	 My piano roll shows the order, length, and pitch of the notes played in the song. When you compare it to the histogram, it does seem to support the 
-         data as the most common notes in the histogram do correspond to the piano roll. 
+	 My piano roll shown in this diagram displays the order, length, and pitch of the notes played in the song. When you compare it to the histogram, it does seem to support the 
+         rest of my data, as the most common notes in the histogram do correspond with the data in the piano roll. 
         </td>
 	<td class="image"><img id="image2" src="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week04/piano-roll.png?raw=true"> </td>
 	</tr>
 	<tr>
 	<td class="description"> <b> Scatter Plot of Pitches </b> <br/> <br/> 
-        My scatter plot of pitches creates a plot of pitch against note length.
+        My scatter plot of pitches shown in this diagram creates a plot of pitch against note length for my piece of music.
 		</td>
 	<td class="image"> <img id="image3" src="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week04/scatter-plot-of-pitches.png?raw=true"> </td>
 	</tr>
@@ -190,8 +199,8 @@ ul{
 	
 <table> 
 	<tr> 
-		<td id="left"> <a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week03/week03.html"> Week 3: Encoding Notated Music </a> </td>
-		<td id="right"> <a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week05/week05.html"> Week 5: Basic Metadata</a> </td> 
+		<td id="left"> <a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week03/week03.html"> Click here for Week 3: Encoding Notated Music </a> </td>
+		<td id="right"> <a href="https://tieghanmcmullan.github.io/MCA-2020/answers/week05/week05.html"> Click here for Week 5: Basic Metadata</a> </td> 
 	</tr>
 </table>
 
