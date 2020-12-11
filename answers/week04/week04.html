@@ -21,6 +21,9 @@ body {
     background-color: white;
     text-align: justify;
 	}
+a:hover {
+  color: springgreen;
+}
 
 h1 {
     padding-bottom: 5px;
@@ -72,6 +75,7 @@ table {
   text-align: center;
   padding-bottom: 60px;
   border:none;
+  background-colour:aliceblue;
   }
   
 #right {
@@ -161,7 +165,7 @@ ul{
 	 
             I have extracted the main and most basic features about the piece such as number of pitches and pitch classes, mean pitch and mean pitch class, as well as Range.
 	    I have also extracted some features which I believe can provide more information about this song such as strong tonal centres, most common pitch
-            and pitch class, the interval between the most prevalent pitches, pitch variability and most common melodic interval. 
+            and pitch class, the interval between the most prevalent pitches, pitch variability and most common melodic interval. <br>
 	    These features will allow me to learn more information about my piece. For example, the most common melodic interval tells me that the most 
 	    common distance between notes in the melody of this piece is 2. Furthermore, the most common pitch can give me insight into how high or low the piece of music is.
 
@@ -175,23 +179,31 @@ ul{
 	<h2> Task 2: Generating a pitch histogram and piano roll</h2>
 	<table>
 	<tr> 
-        <p>Next, I used jupyter notebook to generate a pitch histogram and a piano roll of my piece.</p>
+        <p>Next, I used jupyter notebook to generate a pitch histogram, piano roll and scatter plot of my piece.</p>
 		
 	<td class="description"> <b> Pitch histogram </b> <br/> <br/>
         My pitch histogram shown in this diagram shows the number of times each particular note has been 
-        played in the song. </td>
+        played in the song. From looking at the diagram I can see that the most common pitch appears to be D. I can also see from my JSymbolic 
+	analysis that the midi number for mean pitch is 58 which which means the mean pitch is between A3 and B3 notes which would corresppond with the data. </td>
 	<td class="image"><img id="image1" src="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week04/histogram.png?raw=true"> </td>
 	</tr> 
 	<tr>
+
 	<td class="description"> <b> Piano Roll </b> <br/> <br/>
-	 My piano roll shown in this diagram displays the order, length, and pitch of the notes played in the song. When you compare it to the histogram, it does seem to support the 
+	 My piano roll shown in this diagram displays the order, length, and pitch of the notes played in the song. 
+         I Can see lots of C4’s and D’s which correlates with my sheet music. 
+	 When you compare it to the histogram, it does seem to support the 
          rest of my data, as the most common notes in the histogram do correspond with the data in the piano roll. 
         </td>
 	<td class="image"><img id="image2" src="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week04/piano-roll.png?raw=true"> </td>
 	</tr>
 	<tr>
 	<td class="description"> <b> Scatter Plot of Pitches </b> <br/> <br/> 
-        My scatter plot of pitches shown in this diagram creates a plot of pitch against note length for my piece of music.
+        My scatter plot of pitches shown in this diagram creates a plot of pitch against note length for my piece of music. 
+		My plot shows that the most common notes are probably G's and they last roughly around 0.75. It also shows that
+		a lot of the notes are the length of 4 quarters or one beat. This again correlates with the data shown in my other diagrams
+		and the data from my transcribed sheet music.
+
 		</td>
 	<td class="image"> <img id="image3" src="https://github.com/tieghanmcmullan/MCA-2020/blob/master/answers/week04/scatter-plot-of-pitches.png?raw=true"> </td>
 	</tr>
